@@ -1,0 +1,16 @@
+CLASS Pgm5 {
+    VAR N, M, ans;
+
+    GET N;
+    GET M;
+
+    IF N == 0 THEN PRINT 0;
+    IF N == 1 THEN PRINT 1;
+
+    ans = N;
+
+    WHILE M > 12 DO {
+        Nfac = Nfac * N-1;
+        N = N - 1;
+    }
+}

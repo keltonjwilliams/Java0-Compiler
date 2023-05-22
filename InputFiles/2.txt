@@ -1,0 +1,6 @@
+CLASS Pgm2 {
+    VAR a, b;
+
+    IF a > b THEN PRINT a;
+    IF a < b THEN PRINT b;
+}

@@ -1,0 +1,16 @@
+CLASS Pgm3 {
+    VAR a, b, c;
+
+    GET a;
+    GET b;
+    GET c;
+
+    IF a > b THEN 
+        IF a > c THEN PRINT a;
+
+    IF b > a THEN 
+        IF b > c THEN PRINT b;
+
+    IF c > a THEN 
+        IF c > b THEN PRINT c;
+}

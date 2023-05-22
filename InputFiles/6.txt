@@ -1,0 +1,15 @@
+CLASS Pgm6 {
+    CONST M = 7;
+    VAR a, b, c, d;
+
+    GET a;
+    GET b;
+    GET c;
+    GET d;
+
+    IF a == M THEN 
+        IF b == M THEN 
+            IF c == M THEN 
+                IF d == M THEN 
+                    PRINT M;
+}

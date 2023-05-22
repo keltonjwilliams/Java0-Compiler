@@ -1,0 +1,5 @@
+CLASS Pgm2 {
+    CONST X = 7;
+    VAR Y;
+    IF X == 7 THEN Y = X;
+}

@@ -1,0 +1,15 @@
+CLASS Pgm4 {
+    VAR N, Nfac;
+
+    GET N;
+
+    IF N == 0 THEN PRINT 1;
+    IF N == 1 THEN PRINT 1;
+
+    Nfac = N;
+
+    WHILE N > 1 DO {
+        Nfac = Nfac * N - 1;
+        N = N - 1;
+    }
+}

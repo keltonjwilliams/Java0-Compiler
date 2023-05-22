@@ -1,0 +1,6 @@
+Pgm6      <PgmName>           0         CS
+M         <const>   7         0         DS
+a         <var>               2         DS
+b         <var>               4         DS
+c         <var>               6         DS
+d         <var>               8         DS

@@ -1,0 +1,9 @@
+CLASS Pgm0 {
+    CONST M = 13, N = 56;
+    VAR X, Y, Z;
+    /* IGNORE THIS +- */
+    Y = 97;
+    X = M * N + 18 - Y;
+    PRINT Y;
+    PRINT X;
+}
